@@ -10,7 +10,7 @@ The website is designed with a clean modern UI, smooth animations, and interacti
 
 ## Live Demo
 
-Deployed Version: [*(Add your deployment link here if available)*](https://portofolio-naufal-hafizh-muttaqin.vercel.app/)
+Deployed Version: https://portofolio-naufal-hafizh-muttaqin.vercel.app/
 
 ---
 
