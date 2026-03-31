@@ -353,3 +353,49 @@ nav a:hover {
   transform: translateY(0);
 }
 
+/* CERTIFICATIONS */
+#certifications h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 300px)); /* 🔥 ubah ini */
+  gap: 25px;
+  justify-content: center; /* 🔥 tambahkan ini */
+}
+
+.cert-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.cert-card h3 {
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.cert-card p {
+  color: var(--text-gray);
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.cert-card a {
+  color: var(--cyan);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cert-card a:hover {
+  text-decoration: underline;
+}
