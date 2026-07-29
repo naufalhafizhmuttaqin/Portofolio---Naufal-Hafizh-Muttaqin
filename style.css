@@ -223,13 +223,15 @@ nav a:hover {
   padding: 20px;
 }
 
-.project-skin { background-image: url("asset/skintype.jpg"); }
+.project-skin { background-image: url("asset/skintype.png"); }
 .project-opencv { background-image: url("asset/opencv.png"); }
 .project-cpp { background-image: url("asset/cpp.png"); }
 .project-library { background-image: url("asset/library.png"); }
 .project-parallax {background-image: url("asset/parallax.png");}
 .project-footballtactic {background-image: url("asset/footballtactic.png");}
 .project-ecomweb {background-image: url("asset/ecomweb.png");}
+.project-ecomdash {background-image: url("asset/ecomdash.png");}
+.project-mamahanab {background-image: url("asset/logo.png");}
 
 .github-link {
   color: var(--text-gray);
