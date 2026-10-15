@@ -3,28 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Naufal Hafizh Muttaqin: data, machine learning, and IT support projects." />
   <title>Portfolio | Naufal Hafizh Muttaqin</title>
-
-  <!-- CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
-
-
-  <!-- Feather Icons -->
-  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
 
 <header id="navbar">
-  <h1 class="logo">Portfolio</h1>
-  <nav>
-    <a href="#home">Home</a>
+  <a href="#home" class="logo">Naufal Hafizh Muttaqin</a>
+  <nav aria-label="Main">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#certifications">Certifications</a>
@@ -32,191 +24,152 @@
   </nav>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <p class="hero-greeting"><span id="typewriter"></span></p>
-    <h1 class="hero-name">
-      Naufal Hafizh Muttaqin
-    </h1>
-
-    <p class="hero-desc">
-      I explore data and machine learning to build practical,
-      technology-based solutions that are genuinely useful.
-    </p>
-
-<div class="hero-buttons">
-  <a
-    href="https://github.com/NaufalHafizhMuttaqin"
-    target="_blank"
-    class="social-btn github"
-  >
-    <i class="fa-brands fa-github"></i>
-    GitHub
-  </a>
-
-  <a
-    href="https://www.linkedin.com/in/naufalhafizhmuttaqin/"
-    target="_blank"
-    class="social-btn linkedin"
-  >
-    <i class="fa-brands fa-linkedin-in"></i>
-    LinkedIn
-  </a>
-</div>
-  </div>
-</section>
-
-
-<!-- ABOUT -->
-<section class="section reveal" id="about">
-  <h2>About Me</h2>
-  <p>
-    I'm Hafizh, who really loves exploring data, machine learning, and creating technology based solutions.
-    During college and while participating in the independent study program,
-    I worked on many projects ranging from data analysis, building ML models, to small scale projects.
-    I'm comfortable working with Python, SQL, and data visualization tools,
-    and I also have experience in system analysis, software testing, and IT support.
-    Right now, I'm focusing on developing my skills and gaining more experience through new projects.
-    In short, I enjoy learning new things and love creating something genuinely useful.
-    <br><br>
-    I enjoy learning new technologies and creating solutions that are genuinely useful and impactful.
-  </p>
-</section>
-
-<!-- PROJECTS -->
-<section class="section reveal" id="projects">
-  <h2>Projects</h2>
-
-  <div class="project-grid">
-    <a href="https://github.com/naufalhafizhmuttaqin/Skin-Face-Classification" target="_blank" class="project-card project-skin">
-      <div class="overlay">
-        <h3>Skin Face Classification</h3>
-        <p>Machine Learning model for skin type classification.</p>
+<main>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting"><span id="typewriter"></span></p>
+      <h1 class="hero-name">Naufal Hafizh Muttaqin</h1>
+      <p class="hero-desc">
+        I explore data and machine learning to build practical,
+        technology-based solutions that are genuinely useful.
+      </p>
+      <div class="hero-buttons">
+        <a href="https://github.com/NaufalHafizhMuttaqin" target="_blank" rel="noopener" class="btn btn-light">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/naufalhafizhmuttaqin/" target="_blank" rel="noopener" class="btn btn-linkedin">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
       </div>
-    </a>
+    </div>
+  </section>
 
-    <a href="https://github.com/naufalhafizhmuttaqin/OpenCv-Computer-Vision-projects" class="project-card project-opencv">
-      <div class="overlay">
-        <h3>Detection Using OpenCV</h3>
-        <p>Various projects that use OpenCV to detect.</p>
-      </div>
-    </a>
+  <section class="section reveal" id="about">
+    <h2>About me</h2>
+    <div class="prose">
+      <p>
+        I'm Hafizh, an Informatics Engineering graduate who enjoys working with data, machine learning,
+        and building technology-based solutions. I'm currently involved in IT Support projects, where I
+        handle troubleshooting, system support, and day-to-day IT operations, including network and CCTV
+        installation in the field.
+      </p>
+      <p>
+        On the development side, I work with Python and SQL for data analysis, visualization, and machine
+        learning, and I build web interfaces using modern frontend technologies. I also have experience in
+        system analysis and software testing. I'm adaptable, detail-oriented, and always looking to grow my
+        technical skills while contributing to technology-focused projects and business solutions.
+      </p>
+    </div>
+  </section>
 
-    <a href="https://github.com/naufalhafizhmuttaqin/mini-project" class="project-card project-cpp">
-      <div class="overlay">
-        <h3>C++ Mini Projects</h3>
-        <p>Various project using C++.</p>
-      </div>
-    </a>
+  <section class="section reveal" id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
 
-    <a href="https://library-room-booking-eight.vercel.app/" target="_blank" class="project-card project-library">
-      <div class="overlay">
-        <h3>Library Room Booking System</h3>
-        <p>Modern room booking web app with real-time validation.</p>
-      </div>
-    </a>
+      <a href="it-support.html" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/networkcctv.png" loading="lazy" />
+        <div class="card-body">
+          <h3>Network cabling and CCTV installation</h3>
+          <p>CCTV, access point, LAN cabling, and patch panel work in the field.</p>
+        </div>
+      </a>
 
-    <a href="https://parallax-web-hazel.vercel.app/" target="_blank" class="project-card project-parallax">
-      <div class="overlay">
-        <h3>Parallax Website</h3>
-        <p>A modern parallax site with smooth scroll animations.</p>
-      </div>
-    </a>
+      <a href="https://github.com/naufalhafizhmuttaqin/Skin-Face-Classification" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/skintype.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Skin Face Classification</h3>
+          <p>Machine learning model for skin type classification.</p>
+        </div>
+      </a>
 
-    <a href="https://github.com/naufalhafizhmuttaqin/Football-Tactical-Multi-Output-Prediction" target="_blank" class="project-card project-footballtactic">
-      <div class="overlay">
-        <h3>Football Tactical Prediction</h3>
-        <p>Multi-output ML model for football tactical prediction.</p>
-      </div>
-    </a>
+      <a href="https://github.com/naufalhafizhmuttaqin/OpenCv-Computer-Vision-projects" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/opencv.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Detection Using OpenCV</h3>
+          <p>Various computer vision projects built with OpenCV.</p>
+        </div>
+      </a>
 
-    <a href="https://simple-ecommerce-webapp-drab.vercel.app/" target="_blank" class="project-card project-ecomweb">
-      <div class="overlay">
-        <h3>Simple E-commerce Web</h3>
-        <p>Front-end e-commerce project with dynamic shopping features.</p>
-      </div>
-    </a>
+      <a href="https://github.com/naufalhafizhmuttaqin/mini-project" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/cpp.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>C++ Mini Projects</h3>
+          <p>A collection of small projects written in C++.</p>
+        </div>
+      </a>
 
-    <a href="https://github.com/naufalhafizhmuttaqin/E-commerce-Dashboard" target="_blank" class="project-card project-ecomdash">
-      <div class="overlay">
-        <h3>E-commerce Dashboard</h3>
-        <p>Interactive dashboard for managing products, orders, and sales.</p>
-      </div>
-    </a>
+      <a href="https://library-room-booking-eight.vercel.app/" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/library.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Library Room Booking System</h3>
+          <p>Room booking web app with real-time validation.</p>
+        </div>
+      </a>
 
-    <a href="https://mama-hanab.vercel.app/" target="_blank" class="project-card project-mamahanab">
-      <div class="overlay">
-        <h3>Mama Hanab</h3>
-        <p>Responsive website for promoting products online.</p>
-      </div>
-    </a>
-  </div>
+      <a href="https://parallax-web-hazel.vercel.app/" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/parallax.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Parallax Website</h3>
+          <p>A parallax site with smooth scroll animations.</p>
+        </div>
+      </a>
 
-  <p class="github-link">
-    More projects on
-    <a href="https://github.com/NaufalHafizhMuttaqin" target="_blank">GitHub →</a>
-  </p>
-</section>
+      <a href="https://github.com/naufalhafizhmuttaqin/Football-Tactical-Multi-Output-Prediction" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/footballtactic.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Football Tactical Prediction</h3>
+          <p>Multi-output ML model for football tactical prediction.</p>
+        </div>
+      </a>
 
-<!-- CERTIFICATIONS -->
-<section class="section reveal" id="certifications">
-  <h2>Certifications</h2>
+      <a href="https://simple-ecommerce-webapp-drab.vercel.app/" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/ecomweb.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Simple E-commerce Web</h3>
+          <p>Front-end e-commerce project with dynamic shopping features.</p>
+        </div>
+      </a>
 
-  <div class="cert-grid">
+      <a href="https://github.com/naufalhafizhmuttaqin/E-commerce-Dashboard" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/ecomdash.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>E-commerce Dashboard</h3>
+          <p>Dashboard for managing products, orders, and sales.</p>
+        </div>
+      </a>
 
-    <div class="cert-grid">
-      <a href="https://drive.google.com/file/d/157n1OnCZq3rOSeGS-I8SYGCtSlWd3sJA/view?usp=sharing" class="cert-card">
-      <h3>Software Quality Assurance</h3>
-      <p>BNSP - 2026</p>
-  </a>
+      <a href="https://mama-hanab.vercel.app/" target="_blank" rel="noopener" class="project-card">
+        <img src="asset/logo.png" alt="" loading="lazy" />
+        <div class="card-body">
+          <h3>Mama Hanab</h3>
+          <p>Responsive website for promoting products online.</p>
+        </div>
+      </a>
+    </div>
+    <p class="more-link">More projects on <a href="https://github.com/NaufalHafizhMuttaqin" target="_blank" rel="noopener">GitHub</a></p>
+  </section>
 
-</div>
+  <section class="section reveal" id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert-list">
+      <a href="https://drive.google.com/file/d/157n1OnCZq3rOSeGS-I8SYGCtSlWd3sJA/view?usp=sharing" target="_blank" rel="noopener" class="cert-card">
+        <h3>Software Quality Assurance</h3>
+        <p>BNSP, 2026</p>
+      </a>
+    </div>
+  </section>
 
-  </div>
-</section>
+  <section class="section reveal" id="contact">
+    <h2>Contact me</h2>
+    <p class="prose">Feel free to reach out if you'd like to collaborate, discuss a project, or just say hello.</p>
+    <div class="contact-buttons">
+      <a href="mailto:naufalhafizhmuttaqin@gmail.com" class="btn btn-light"><i class="fa-solid fa-envelope"></i> Email me</a>
+      <a href="https://wa.me/6285383824967" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Message me</a>
+      <a href="https://drive.google.com/file/d/1vYYFBur_Pm9O9Acqz44x6OaFtUawPZi7/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-outline"><i class="fa-solid fa-download"></i> Download resume</a>
+    </div>
+  </section>
+</main>
 
-<!-- CONTACT -->
-<section class="section reveal" id="contact">
-  <h2>Contact Me</h2>
-
-  <p class="contact-desc">
-    Feel free to reach out if you'd like to collaborate, discuss projects,
-    or just say hello.
-  </p>
-
-<div class="contact-buttons">
-  <!-- Top Row -->
-  <div class="contact-row">
-    <a href="mailto:naufalhafizhmuttaqin@gmail.com" class="btn-primary">
-      <i data-feather="mail"></i>
-      Email Me
-    </a>
-
-    <a
-      href="https://wa.me/6285383824967"
-      target="_blank"
-      class="btn-whatsapp"
-    >
-      <i class="fa-brands fa-whatsapp"></i>
-      Message Me
-    </a>
-  </div>
-
-  <!-- Bottom Button -->
-  <a
-    href="https://drive.google.com/file/d/1vYYFBur_Pm9O9Acqz44x6OaFtUawPZi7/view?usp=sharing"
-    target="_blank"
-    class="btn-outline btn-resume"
-  >
-    <i data-feather="download"></i>
-    Download Resume
-  </a>
-</div>
-</section>
-
-
-<script src="script.js"></script>
-<script>feather.replace();</script>
+<footer><p>&copy; 2026 Naufal Hafizh Muttaqin</p></footer>
 </body>
 </html>

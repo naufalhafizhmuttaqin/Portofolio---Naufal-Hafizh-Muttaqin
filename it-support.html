@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Support Project | Naufal Hafizh Muttaqin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header id="navbar">
+  <a href="index.html#home" class="logo">Naufal H. M.</a>
+  <nav aria-label="Main">
+    <a href="index.html#about">About</a>
+    <a href="index.html#projects">Projects</a>
+    <a href="index.html#certifications">Certifications</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="gallery-page">
+  <h1>IT Support Project</h1>
+  <p class="gallery-lead">
+    Field work on network and security infrastructure. Here are photos from the project.
+  </p>
+
+  <ul class="scope-list">
+    <li>Assisted with CCTV installation and configuration.</li>
+    <li>Assisted with Wireless Access Point installation and setup.</li>
+    <li>Handled LAN cabling, RJ45 crimping, and cable routing.</li>
+    <li>Performed patch panel punch-down termination and cable management.</li>
+  </ul>
+
+  <!-- Tambah/hapus blok <figure> sesuai jumlah foto -->
+  <div class="photo-grid">
+      <figure class="photo">
+        <button type="button" aria-label="View photo 1"><img src="asset/itsupport/networkcctv (1).png" alt="IT support project photo 1" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 2"><img src="asset/itsupport/networkcctv (2).png" alt="IT support project photo 2" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 3"><img src="asset/itsupport/networkcctv (3).png" alt="IT support project photo 3" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 4"><img src="asset/itsupport/networkcctv (4).png" alt="IT support project photo 4" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 5"><img src="asset/itsupport/networkcctv (5).png" alt="IT support project photo 5" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 6"><img src="asset/itsupport/networkcctv (6).png" alt="IT support project photo 6" loading="lazy" /></button>
+      </figure>
+      <figure class="photo">
+        <button type="button" aria-label="View photo 6"><img src="asset/itsupport/networkcctv (7).png" alt="IT support project photo 6" loading="lazy" /></button>
+      </figure>
+  </div>
+</main>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" aria-label="Close">&times;</button>
+  <button class="lb-btn lb-prev" aria-label="Previous photo">&#8249;</button>
+  <figure><img src="" alt="" /><figcaption></figcaption></figure>
+  <button class="lb-btn lb-next" aria-label="Next photo">&#8250;</button>
+</dialog>
+
+<footer><p>&copy; 2026 Naufal Hafizh Muttaqin</p></footer>
+</body>
+</html>
